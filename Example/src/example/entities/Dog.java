@@ -9,6 +9,7 @@ public class Dog {
     private String name;
     private String breed;
     private int age;
+    private double weight;
 
     public Dog() {
     }
@@ -43,8 +44,16 @@ public class Dog {
         this.age = age;
     }
 
+    public double getWeight() {
+        return weight;
+    }
+
+    public void setWeight(double weight) {
+        this.weight = weight;
+    }
+
     @Override
     public String toString() {
-        return "Dog{" + "name=" + name + ", breed=" + breed + ", age=" + age + '}';
+        return "Dog{" + "name=" + name + ", breed=" + breed + ", age=" + age + ", weight=" + weight + '}';
     }
 }
