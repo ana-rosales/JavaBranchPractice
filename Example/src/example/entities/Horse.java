@@ -5,15 +5,15 @@ package example.entities;
  *
  * @author paula
  */
-public class Dog {
+public class Horse {
     private String name;
     private String breed;
     private int age;
 
-    public Dog() {
+    public Horse() {
     }
 
-    public Dog(String name, String breed, int age) {
+    public Horse(String name, String breed, int age) {
         this.name = name;
         this.breed = breed;
         this.age = age;
